@@ -1,0 +1,173 @@
+body {
+  background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2023/06/od-ofertas-celulares-1.jpg');
+  background-size: 100%;
+}
+
+.container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cart {
+  position: sticky;
+  top: 20px;
+}
+
+.cart-item {
+  transition: all 0.3s ease;
+}
+
+input{
+  margin: 10px;
+}
+
+.cart-item:hover {
+  transform: scale(1.005);
+}
+
+.close-cart {
+  color: #060606;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #171a21;
+  color: #e6e6e6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1b3820;
+  border: 1px solid #444;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #66f46f;
+  text-decoration: none;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  flex: 0 0 240px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #1c261e;
+  border: 1px solid #444444;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.cart {
+  background-color: #1c261e;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cart-item img {
+  max-width: 60px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.cart-item h3 {
+  margin: 0;
+  flex-grow: 1;
+  color: #fff;
+}
+
+.cart-item p {
+  margin: 0;
+  margin-right: 10px;
+  color: #e6e6e6;
+}
+
+button {
+  background-color: #3ca543 ;
+  color: #fff;
+  margin: 0px 90px 0px 90px;
+  border-style: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  background-color: #2d6130;
+}
+
+.close-cart {
+  margin-top: 10px;
+  color: #e6e6e6;
+}
+
+.inicio-button {
+  bottom: 20px;
+  right: 20px;
+  background-color: #66c0f4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a#inicio {
+  background-color: #66c0f4;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a#inicio:hover {
+  background-color: #00adee;
+}
